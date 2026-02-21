@@ -8,7 +8,7 @@ An optional skills registry for [claude-assistant](https://github.com/nnance/cla
 |-------|-------------|-----------------|
 | [apple-services](#apple-services) | macOS Calendar, Contacts, Notes | "calendar", "schedule", "contacts", "notes" |
 | [google-workspace](#google-workspace) | Gmail, Drive, Docs, Sheets | "email", "Google Doc", "spreadsheet", "Drive" |
-| [vault](#vault) | Obsidian vault note management | "save a note", "add to vault", "show my tasks" |
+| [vault](#vault) | A Second Brain built on Obsidian | "save a note", "add to vault", "show my tasks" |
 
 ## Installation
 
@@ -89,7 +89,7 @@ gh api repos/nnance/claude-assistant-skills/git/trees/main?recursive=1 \
 
 **Location**: `skills/vault/`
 
-**Description**: Captures, organizes, and retrieves notes in an Obsidian vault with automatic folder classification and a daily log system.
+**Description**: A Second Brain built on Obsidian. Captures, organizes, and retrieves notes with automatic folder classification and a daily log system.
 
 **Triggers**:
 - "save a note", "capture this", "remember that"

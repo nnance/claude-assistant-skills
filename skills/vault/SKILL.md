@@ -1,6 +1,6 @@
 ---
 name: managing-vault
-description: "Captures, organizes, and retrieves notes in an Obsidian vault. Use when the user says: 'save a note', 'capture this', 'remember that', 'add to vault', 'list notes', 'read note', 'find in vault', 'show my tasks', 'log this', 'mark task complete', 'I finished', 'task is done', or 'update the note'."
+description: "A Second Brain built on Obsidian. Use when the user says: 'save a note', 'capture this', 'remember that', 'add to vault', 'list notes', 'read note', 'find in vault', 'show my tasks', 'log this', 'mark task complete', 'I finished', 'task is done', or 'update the note'."
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash
 ---
 
