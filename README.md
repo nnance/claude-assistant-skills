@@ -57,6 +57,8 @@ gh api repos/nnance/claude-assistant-skills/git/trees/main?recursive=1 \
 - `scripts/contacts.sh` - Contacts operations via AppleScript
 - `scripts/notes.sh` - Notes operations via AppleScript
 
+**Optional CLI**: For improved performance and consistency, install the native Swift CLI from [apple-services-cli](https://github.com/nnance/apple-services-cli).
+
 **Configuration**: Optional `APPLE_CALENDAR_NAME` environment variable sets the default calendar (defaults to "Calendar").
 
 ---

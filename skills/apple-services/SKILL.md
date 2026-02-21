@@ -80,6 +80,10 @@ Script: `.claude/skills/apple-services/scripts/notes.sh`
 .claude/skills/apple-services/scripts/notes.sh edit "Shopping List" "Milk, Eggs, Bread, Butter"
 ```
 
+## Optional CLI
+
+For improved performance and consistency, install the native Swift CLI from [apple-services-cli](https://github.com/nnance/apple-services-cli). When installed, Calendar and Contacts commands use the binary directly instead of AppleScript fallbacks.
+
 ## Output Format
 
 All commands return JSON. Errors include an `error` field with exit code 1.
