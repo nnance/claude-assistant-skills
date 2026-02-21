@@ -9,11 +9,6 @@ Interact with Apple Calendar, Contacts, and Notes. Calendar and Contacts use a n
 
 **Execution rule:** For Calendar and Contacts commands, try the binary first. If it fails with "command not found" or is not installed, fall back to the corresponding shell script. The argument signatures are identical.
 
-## Key Information Sources
-
-- **Personal Information**: Apple Note titled "Personal Information"
-- **Professional Information**: Apple Note titled "Professional Information"
-
 ## Calendar
 
 Binary: `apple-services calendar <action> [args...]`
